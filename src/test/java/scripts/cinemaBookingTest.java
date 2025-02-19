@@ -41,6 +41,7 @@ public class cinemaBookingTest extends BaseTest{
 
     @Test
     void testProfileCinema() {
+        //This is new log
         page.getByText("Đăng Nhập").click();
         page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Tài Khoản")).fill("huydao226");
         page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Mật Khẩu")).fill("asdEDZ12#");
